@@ -1,0 +1,25 @@
+<!-- item_movie.xml - Layout cho mỗi item trong RecyclerView -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="2dp"
+        android:paddingTop="5dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</LinearLayout>
